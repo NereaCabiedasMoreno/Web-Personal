@@ -23,6 +23,8 @@ Página Web personal , donde muestro mis habilidades personales y conocimientos 
 
 -Robots.txt
 
+-Google Search Console: Móvil(51) Ordenador(93)
+
 # Desarrollada  por:
 
 -Nerea Cabiedas Moreno 
