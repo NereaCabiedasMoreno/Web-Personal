@@ -438,22 +438,22 @@ template {
 
 .Java {
   background: linear-gradient(0deg, tomato 50%, rgba(255, 99, 71, 0.2) 50%);
-  transform: rotate(126deg);
+  transform: rotate(135deg);
 }
 .Java:before, .Java:after {
   color: tomato;
 }
 .Java:before {
-  content: "70%";
+  content: "75%";
   color:#343a40;
   background: #fff content-box;
-  transform: rotate(-126deg);
+  transform: rotate(-135deg);
   text-transform: uppercase;
 }
 .Java:after {
   content: "Java";
   background: linear-gradient(transparent 50%, #fff 50%);
-  transform: scale(1.1) rotate(-126deg);
+  transform: scale(1.1) rotate(-135deg);
 }
 
 
@@ -464,22 +464,22 @@ template {
 }*/
 .AndroidStudio {
   background: linear-gradient(0deg, tomato 50%, rgba(255, 99, 71, 0.2) 50%);
-  transform: rotate(126deg);
+  transform: rotate(135deg);
 }
 .AndroidStudio:before, .AndroidStudio:after {
   color: tomato;
 }
 .AndroidStudio:before {
-  content: "70%";
+  content: "75%";
   color:#343a40;
   background: #fff content-box;
-  transform: rotate(-126deg);
+  transform: rotate(-135deg);
   text-transform: uppercase;
 }
 .AndroidStudio:after {
   content: "AndroidStudio";
   background: linear-gradient(transparent 50%, #fff 50%);
-  transform: scale(1.1) rotate(-126deg);
+  transform: scale(1.1) rotate(-135deg);
 }
 
 
@@ -492,13 +492,13 @@ template {
 */
   .HTML5 {
     background: linear-gradient(0deg, tomato 50%, rgba(255, 99, 71, 0.2) 50%);
-    transform: rotate(135deg);
+    transform: rotate(144deg);
   }
   .HTML5:before, .HTML5:after {
     color: tomato;
   }
   .HTML5:before {
-    content: "75%";
+    content: "80%%";
     color:#343a40;
     background: #fff content-box;
     transform: rotate(-135deg);
@@ -507,7 +507,7 @@ template {
   .HTML5:after {
     content: "HTML5";
     background: linear-gradient(transparent 50%, #fff 50%);
-    transform: scale(1.1) rotate(-135deg);
+    transform: scale(1.1) rotate(-144deg);
   }
 
 /*---------------Flutter----------*/
@@ -549,22 +549,22 @@ div.circular-progress.CSS{
 */
 .CSS {
   background: linear-gradient(0deg, steelblue 50%, rgba(70, 130, 180, 0.2) 50%);
-  transform: rotate(126deg);
+  transform: rotate(144deg);
 }
 .CSS:before, .CSS:after {
   color: steelblue;
 }
 .CSS:before {
-  content: "70%";
+  content: "80%%";
   color:#343a40;
   background: #fff content-box;
-  transform: rotate(-126deg);
+  transform: rotate(-144deg);
   text-transform: uppercase;
 }
 .CSS:after {
   content: "CSS";
   background: linear-gradient(transparent 50%, #fff 50%);
-  transform: scale(1.1) rotate(-126deg);
+  transform: scale(1.1) rotate(-144deg);
 }
 /*---------------JavaScript----------*/
 
