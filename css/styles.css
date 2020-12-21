@@ -1127,7 +1127,13 @@ section#projects.resume-section{
     margin-left: 200px;
     margin-top: 50px;
   }
-
+  select#select.form-control{
+    margin-top: -25px;
+  }
+  
+  label.col-md-3.form-control-label{
+    top: 20px;
+  }
 
   section.contact-form{
   margin-left: -200px;
