@@ -1,7 +1,7 @@
 # Web Personal
 Página Web personal , donde muestro mis habilidades personales y conocimientos técnicos, para darme a conocer.
 
-# Herramientas utilzadas
+# Herramientas utilizadas
 
 -HTML5 
 
