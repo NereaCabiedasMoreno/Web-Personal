@@ -555,7 +555,7 @@ div.circular-progress.CSS{
   color: steelblue;
 }
 .CSS:before {
-  content: "80%%";
+  content: "80%";
   color:#343a40;
   background: #fff content-box;
   transform: rotate(-144deg);
