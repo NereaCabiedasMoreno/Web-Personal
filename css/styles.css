@@ -928,12 +928,13 @@ div.timeline{
     margin-left: 250px;
     margin-top: 10px;
   }
-}
-
-h3.timeline__title{
+  h3.timeline__title{
 
   color: #495057 !important;
+  }
 }
+
+
 
 
 div.subheading.mb-91{
@@ -986,6 +987,7 @@ div.subheading.mb-90{
       left: -10px;
       border-color:transparent transparent hotpink hotpink;
     }
+ 
 }
 
 .timeline__item--year {
@@ -1034,14 +1036,7 @@ div.subheading.mb-90{
 h2.mb-10{
   margin-top: 50px;
 }
-@media screen and (min-width: 700px) {
-  button.esi{
-    margin-left: 175px;
-    background-image:url('assets/img/uclm.png');
-    height:50px;
-    width:185px;
-  }
-}
+
 /* FIN TIME LINE*/ 
 
 /*--------------------------*/
