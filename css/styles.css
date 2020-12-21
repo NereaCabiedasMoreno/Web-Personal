@@ -934,7 +934,11 @@ div.timeline{
   }
 }
 
-
+@media screen and (min-width: 768px) {
+  h3.timeline__title{
+    color: #495057 !important;
+  }
+}
 
 
 div.subheading.mb-91{
@@ -1106,6 +1110,7 @@ section#projects.resume-section{
   label#etiquetam{
     margin-left: -200px;
   }
+  
 }
 
 
