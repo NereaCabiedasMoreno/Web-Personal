@@ -498,10 +498,10 @@ template {
     color: tomato;
   }
   .HTML5:before {
-    content: "80%%";
+    content: "80%";
     color:#343a40;
     background: #fff content-box;
-    transform: rotate(-135deg);
+    transform: rotate(-144deg);
     text-transform: uppercase;
   }
   .HTML5:after {
