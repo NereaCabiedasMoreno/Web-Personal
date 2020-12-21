@@ -15,11 +15,13 @@ Página Web personal , donde muestro mis habilidades personales y conocimientos 
 
 # Posicionamiento 
 
--Google Analytis
+-Google Analytics
 
--Sitemap
+-Sitemap.xml
 
--Robots
+-Sitemap.html
+
+-Robots.txt
 
 # Desarrollada  por:
 
