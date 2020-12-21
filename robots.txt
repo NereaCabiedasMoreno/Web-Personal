@@ -1,0 +1,7 @@
+Sitemap: https://nereacabiedasmoreno.github.io/Web-Personal/sitemap.xml
+User-agent: *
+Disallow : /css/
+Disallow : /js/
+Disallow : /certificados/
+Disallow : /assets/
+Disallow : /README.md/
