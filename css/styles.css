@@ -375,7 +375,7 @@ template {
 [hidden] {
   display: none !important;
 }
-/*pruebas barra ----------------------------------------------------------------------------------------*/
+/*circulos----------------------------------------------------------------------------------------*/
 
 .circular-progress {
   position: relative;
@@ -928,9 +928,17 @@ div.timeline{
     margin-left: 250px;
     margin-top: 10px;
   }
-  h3.timeline__title{
+}
+h3.timeline__title{
 
   color: #495057 !important;
+}
+
+@media screen and (max-width: 700px) {
+  h3.timeline__title{
+
+    color: #495057 !important;
+    font-size:15px;
   }
 }
 
