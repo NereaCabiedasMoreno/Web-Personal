@@ -465,6 +465,14 @@ li.up .avatar {
   line-height: 30px;
   text-align: center;
 }
+div.content::before{
+margin-top:-120px;
+}
+span.circle{
+  left: -566px;
+  margin-top: -95px;
+}
+
 /*circulos----------------------------------------------------------------------------------------*/
 
 .circular-progress {
