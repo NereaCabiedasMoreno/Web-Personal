@@ -404,7 +404,7 @@ template {
   height: 100%;
 }
 .tl-item:after {
-  background: rgba(25, 36, 42, 0.85);
+  background: rgba(44, 59, 66, 0.85);
   opacity: 1;
   transition: opacity 0.5s ease;
 }
@@ -441,7 +441,7 @@ color:#aec634;
 }
 p.f3{
 /*color:#0f1c50;*/
- color: #fff;
+ color: #7787c0;
   font-weight: bold;
 }
 
@@ -569,6 +569,28 @@ p.f3{
   background: linear-gradient(transparent 50%, #fff 50%);
   transform: scale(1.1) rotate(-135deg);
 }
+/*---------------JavaScript----------*/
+
+.JavaScript {
+  background: linear-gradient(0deg, steelblue 50%, rgba(70, 130, 180, 0.2) 50%);
+  transform: rotate(108deg);
+}
+.JavaScript:before, .JavaScript:after {
+  color: steelblue;
+}
+.JavaScript:before {
+  content: "60%";
+  color:#343a40;
+  background: #fff content-box;
+  transform: rotate(-108deg);
+  text-transform: uppercase;
+}
+.JavaScript:after {
+  content: "JavaScript";
+  background: linear-gradient(transparent 50%, #fff 50%);
+  transform: scale(1.1) rotate(-108deg);
+}
+
 
 
 /*---------------Android Studio----------*/
@@ -680,27 +702,51 @@ div.circular-progress.CSS{
   background: linear-gradient(transparent 50%, #fff 50%);
   transform: scale(1.1) rotate(-144deg);
 }
-/*---------------JavaScript----------*/
 
-.JavaScript {
-  background: linear-gradient(0deg, steelblue 50%, rgba(70, 130, 180, 0.2) 50%);
-  transform: rotate(108deg);
+
+/*Dart----------------*/
+
+
+.Bootstrap {
+  background: linear-gradient(0deg, rgb(71, 255, 117) 50%, rgba(100, 224, 166, 0.2) 50%);
+  transform: rotate(72deg);
 }
-.JavaScript:before, .JavaScript:after {
-  color: steelblue;
+.Bootstrap:before, .Bootstrap:after {
+  color:  rgb(71, 255, 117);
 }
-.JavaScript:before {
-  content: "60%";
+.Bootstrap:before {
+  content: "40%";
   color:#343a40;
   background: #fff content-box;
-  transform: rotate(-108deg);
+  transform: rotate(-72deg);
   text-transform: uppercase;
 }
-.JavaScript:after {
-  content: "JavaScript";
+.Bootstrap:after {
+  content: "Bootstrap";
   background: linear-gradient(transparent 50%, #fff 50%);
-  transform: scale(1.1) rotate(-108deg);
+  transform: scale(1.1) rotate(-72deg);
 }
+/*---------------Unity----------*/
+.Unity{
+  background: linear-gradient(0deg, orange 50%, rgba(255, 165, 0, 0.2) 50%);
+  transform: rotate(90deg);
+}
+.Unity:before, .Unity:after {
+  color: orange;
+}
+.Unity:before {
+  content: "50%";
+  color:#343a40;
+  background: #fff content-box;
+  transform: rotate(-90deg);
+  text-transform: uppercase;
+}
+.Unity:after {
+  content: "Unity";
+  background: linear-gradient(transparent 50%, #fff 50%);
+  transform: scale(1.1) rotate(-90deg);
+}
+
 
 /*---------------python----------*/
 .Python{
@@ -916,6 +962,27 @@ div.circular-progress.VisualStudio{
   background: linear-gradient(transparent 50%, #fff 50%);
   transform: scale(1.1) rotate(-144deg);
 }
+/*SublimeText*--------------------------------------------------------------------------------------*/
+
+.SublimeText{
+  background: linear-gradient(0deg, rgb(71, 255, 117) 50%,rgba(100, 224, 166, 0.2) 50%);
+  transform: rotate(108deg);
+}
+.SublimeText:before, .SublimeText:after {
+  color:  rgb(71, 255, 117);
+}
+.SublimeText:before {
+  content: "60%";
+  color:#343a40;
+  background: #fff content-box;
+  transform: rotate(-108deg);
+  text-transform: uppercase;
+}
+.SublimeText:after {
+  content: "Sublime Text";
+  background: linear-gradient(transparent 50%, #fff 50%);
+  transform: scale(1.1) rotate(-108deg);
+}
 
 /*Bases de datos---------*/
 /*
@@ -969,8 +1036,70 @@ div.circular-progress.SQLite{
   transform: scale(1.1) rotate(-90deg);
 }
 
+/*---------------MongoDB----------*/
+.MongoDB{
+  background: linear-gradient(0deg, orange 50%, rgba(255, 165, 0, 0.2) 50%);
+  transform: rotate(90deg);
+}
+.MongoDB:before, .MongoDB:after {
+  color: orange;
+}
+.MongoDB:before {
+  content: "50%";
+  color:#343a40;
+  background: #fff content-box;
+  transform: rotate(-90deg);
+  text-transform: uppercase;
+}
+.MongoDB:after {
+  content: "MongoDB";
+  background: linear-gradient(transparent 50%, #fff 50%);
+  transform: scale(1.1) rotate(-90deg);
+}
 
+/*chatbot ----------------------------------------------*/
+/*---------------Java----------*/
 
+.Microsoft {
+  background: linear-gradient(0deg, tomato 50%, rgba(255, 99, 71, 0.2) 50%);
+  transform: rotate(135deg);
+}
+.Microsoft:before, .Microsoft:after {
+  color: tomato;
+}
+.Microsoft:before {
+  content: "75%";
+  color:#343a40;
+  background: #fff content-box;
+  transform: rotate(-135deg);
+  text-transform: uppercase;
+}
+.Microsoft:after {
+  content: "Microsoft Bot Framework";
+  background: linear-gradient(transparent 50%, #fff 50%);
+  transform: scale(1.1) rotate(-135deg);
+}
+
+/*---LUIS--*/
+.LUIS {
+  background: linear-gradient(0deg, steelblue 50%, rgba(70, 130, 180, 0.2) 50%);
+  transform: rotate(108deg);
+}
+.LUIS:before, .LUIS:after {
+  color: steelblue;
+}
+.LUIS:before {
+  content: "60%";
+  color:#343a40;
+  background: #fff content-box;
+  transform: rotate(-108deg);
+  text-transform: uppercase;
+}
+.LUIS:after {
+  content: "LUIS";
+  background: linear-gradient(transparent 50%, #fff 50%);
+  transform: scale(1.1) rotate(-108deg);
+}
 
 
 .skills {
