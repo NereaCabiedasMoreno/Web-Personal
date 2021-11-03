@@ -413,8 +413,7 @@ template {
 .avatar {
   width: 30px;
   height: 30px;
-  display: block;
-  position: absolute;
+
   margin: 0 auto;
   left: 0;
   right: 0;
@@ -429,18 +428,9 @@ template {
   left: 50%;
   margin-left: -2px;
   position: absolute;
+  margin-top:-120px;
 }
-li.down .content:before {
-  border-left: 4px solid #343a40;
-  border-bottom: 4px solid #343a40;
-  -webkit-border-radius: 0 20px;
-  -moz-border-radius: 0 20px;
-  border-radius: 0 20px;
-}
-li.down .avatar {
-  top: 80px;
-  left: 100px;
-}
+
 li.up .content {
   margin-top: -106px;
 }
@@ -450,10 +440,7 @@ li.up .content:before {
 li.up .date {
   margin-top: 106px;
 }
-li.up .avatar {
-  background: #fff;
-  margin-top: -30px;
-}
+
 .rectangle {
   border: 1px solid #343a40;
   border-radius: 30px;
@@ -464,9 +451,6 @@ li.up .avatar {
   background: #fff;
   line-height: 30px;
   text-align: center;
-}
-div.content::before{
-margin-top:-120px;
 }
 span.circle{
   left: -566px;
