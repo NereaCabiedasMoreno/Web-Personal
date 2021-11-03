@@ -1075,7 +1075,7 @@ div.circular-progress.SQLite{
   text-transform: uppercase;
 }
 .Microsoft:after {
-  content: "Microsoft Bot Framework";
+  content: "Bot Framework";
   background: linear-gradient(transparent 50%, #fff 50%);
   transform: scale(1.1) rotate(-135deg);
 }
@@ -1083,25 +1083,68 @@ div.circular-progress.SQLite{
 /*---LUIS--*/
 .LUIS {
   background: linear-gradient(0deg, steelblue 50%, rgba(70, 130, 180, 0.2) 50%);
-  transform: rotate(108deg);
+  transform: rotate(126deg);
 }
 .LUIS:before, .LUIS:after {
   color: steelblue;
 }
 .LUIS:before {
+  content: "70%";
+  color:#343a40;
+  background: #fff content-box;
+  transform: rotate(-126deg);
+  text-transform: uppercase;
+}
+.LUIS:after {
+  content: "LUIS";
+  background: linear-gradient(transparent 50%, #fff 50%);
+  transform: scale(1.1) rotate(-126deg);
+}
+
+/*---------------Azure---------*/
+.Azure{
+  background: linear-gradient(0deg, orange 50%, rgba(255, 165, 0, 0.2) 50%);
+  transform: rotate(108deg);
+}
+.Azure:before, .Azure:after {
+  color: orange;
+}
+.Azure:before {
   content: "60%";
   color:#343a40;
   background: #fff content-box;
   transform: rotate(-108deg);
   text-transform: uppercase;
 }
-.LUIS:after {
-  content: "LUIS";
+.Azure:after {
+  content: "Microsoft Azure";
   background: linear-gradient(transparent 50%, #fff 50%);
   transform: scale(1.1) rotate(-108deg);
 }
 
 
+/*DialogFlow----------------*/
+
+
+.DialogFlow{
+  background: linear-gradient(0deg, rgb(71, 255, 117) 50%, rgba(100, 224, 166, 0.2) 50%);
+  transform: rotate(72deg);
+}
+.DialogFlow:before, .DialogFlow:after {
+  color:  rgb(71, 255, 117);
+}
+.DialogFlow:before {
+  content: "40%";
+  color:#343a40;
+  background: #fff content-box;
+  transform: rotate(-72deg);
+  text-transform: uppercase;
+}
+.DialogFlow:after {
+  content: "DialogFlow";
+  background: linear-gradient(transparent 50%, #fff 50%);
+  transform: scale(1.1) rotate(-72deg);
+}
 .skills {
   display: flex;
   margin-top: 4em;
