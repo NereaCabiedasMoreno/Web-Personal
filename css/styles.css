@@ -376,12 +376,6 @@ template {
   display: none !important;
 }
 /*---Experiencia laboral--*/
-body {
-  margin: 0;
-  padding: 0 20px;
-  color: #343a40;
-  background: #fff;
-}
 #timeline {
   list-style: none;
   width: 100%;
@@ -471,7 +465,6 @@ li.up .avatar {
   line-height: 30px;
   text-align: center;
 }
-
 /*circulos----------------------------------------------------------------------------------------*/
 
 .circular-progress {
