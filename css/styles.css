@@ -441,7 +441,7 @@ color:#aec634;
 }
 p.f3{
 /*color:#0f1c50;*/
- color: #0f1c50;
+ color: #fff;
   font-weight: bold;
 }
 
@@ -451,7 +451,7 @@ p.f3{
   z-index: 1;
   text-align: center;
   margin: 0 1.618em;
-  top: 60%;
+  top: 63%;
   opacity: 0;
 }
 .tl-content h1 {
