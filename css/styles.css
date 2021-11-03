@@ -11455,4 +11455,17 @@ section.resume-section .resume-section-content {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+  @media  (max-width: 600px){
+    img.hab{
+      margin-left: 400px;
+      margin-top: 100px;
+      max-width: 150%;
+      height: auto;
+      margin-left: 90px;
+    }
+    
+  }
+
+    
 }
+
