@@ -449,7 +449,7 @@ template {
     z-index: 1;
     text-align: center;
     margin: 0 1.618em;
-    top: 50%;
+    top: 70%;
     opacity: 0;
   }
   .tl-content h1 {
