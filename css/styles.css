@@ -433,12 +433,47 @@ p.f3{
   }
 
   img.afanion{
-  margin-left: 0px !important;
+  margin-left: 50px !important;
   }
+
   img.hab{
     margin-top: 20px !important;
     margin-left: 35px !important;
   }
+
+  p.p_a{
+    font-size: medium !important;
+  }
+
+  p.lead.mb-5{
+    font-size: medium !important;
+  }
+
+  h1.mb-4{
+    font-size: medium !important;
+  }
+
+  h1.mb-0{
+    font-size: 45px !important;
+  }
+  
+  h2.mb-44{
+    font-size: 45px !important;
+  }
+  h2.mb-69{
+    font-size: 45px !important;
+  }
+  h2.mb-60{
+    font-size: 45px !important;
+  }
+  h2.mb-5{
+    font-size: 45px !important;
+  }
+  h2.mb-90{
+    font-size: 45px !important;
+  }
+  
+  
 }
 
 @media (max-width: 576px) {
@@ -11558,12 +11593,7 @@ h2.mb-60{
 
 @media screen and (min-width: 768px) {
 
-  img.hab{
-    margin-left: 220px;
-    margin-top: 50px;
-    max-width: 100%;
-    height: auto;
-  }
+  
   
   .fa-ul > li {
     position: relative;
@@ -11610,16 +11640,6 @@ section.resume-section .resume-section-content {
     padding-right: 3rem;
     padding-top: 5rem;
     padding-bottom: 5rem;
-  }
-  @media  (max-width: 600px){
-    img.hab{
-      margin-left: 400px;
-      margin-top: 100px;
-      max-width: 150%;
-      height: auto;
-      margin-left: 90px;
-    }
-    
   }
 
     
