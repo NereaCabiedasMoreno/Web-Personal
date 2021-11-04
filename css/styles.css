@@ -481,8 +481,20 @@ p.f3{
   li{
     text-align: justify !important;
   }
+  div.timeline{
+    right: 80px !important;
+   /*left: 100px !important;*/
+  }
+  
+  h2.timeline_item.timeline__item--year{
+   right: -100px !important;
+  }
+  .timeline__item.timeline__item--year{
+    right: -100px !important;
+  }
   
 }
+
 p.p_a{
  
   text-align: justify !important;
