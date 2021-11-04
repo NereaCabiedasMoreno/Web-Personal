@@ -377,8 +377,60 @@ template {
 }
 /*---Experiencia laboral--*/
 
+p.f1{
+  color:#aec634;
+}
+
+p.f3{
+  color: #7787c0;
+  font-weight: bold;
+}
 
 /*inicio media*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+  .btna-primary{
+    margin-left: 0px !important;
+  }
+
+  p.f1{
+    /*font-size: small !important;*/
+    margin-top: 20px !important;
+    font-size: 14px !important;
+  }
+
+  p.f2.heading--sanSerif{
+    /*font-size: medium !important;*/
+    
+      font-size: 25px !important;
+  }
+
+  p.f3{
+    margin-top: 20px !important;
+    font-size: medium !important;
+  }
+
+  .tl-content {
+    transform: translate3d(0, 0, 0) translateY(25px);
+    position: relative;
+    z-index: 1;
+    text-align: left !important;
+    margin: 0 1.618em;
+    top: 58% !important;
+    opacity: 0;
+  }
+  .tl-content h1 {
+    font-family: 'Pathway Gothic One', Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    color: #1779cf;
+    font-size: 0.8rem !important;
+    font-weight: normal;
+  }
+  p.p_d{
+    font-size: 10px !important;
+  }
+
+}
 
 @media (max-width: 576px) {
   #timeline:hover .tl-item {
@@ -434,14 +486,7 @@ template {
   .tl-item:hover .tl-bg {
     filter: grayscale(0);
   }
-  p.f1{
-  color:#aec634;
-  }
-  p.f3{
-  /*color:#0f1c50;*/
-   color: #7787c0;
-    font-weight: bold;
-  }
+ 
   
   .tl-content {
     transform: translate3d(0, 0, 0) translateY(25px);
@@ -449,7 +494,7 @@ template {
     z-index: 1;
     text-align: center;
     margin: 0 1.618em;
-    top: 70%;
+    top: 550%;
     opacity: 0;
   }
   .tl-content h1 {
@@ -545,14 +590,6 @@ template {
 }
 .tl-item:hover .tl-bg {
   filter: grayscale(0);
-}
-p.f1{
-color:#aec634;
-}
-p.f3{
-/*color:#0f1c50;*/
- color: #7787c0;
-  font-weight: bold;
 }
 
 .tl-content {
