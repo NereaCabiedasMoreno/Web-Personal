@@ -431,8 +431,8 @@ p.f3{
   }
 
   p.p_d{
-    font-size: 14px !important;
-    text-align: justify !important;
+    font-size: 10px !important;
+    
   }
 
   img.afanion{
@@ -450,8 +450,7 @@ p.f3{
     text-align: justify !important;
   }
   p.p_n{
-    font-size: medium !important;
-    text-align: justify !important;
+    font-size: 12px !important;
   }
 
   p.lead.mb-5{
