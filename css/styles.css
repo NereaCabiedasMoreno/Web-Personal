@@ -449,6 +449,10 @@ p.f3{
     font-size: medium !important;
     text-align: justify !important;
   }
+  p.p_n{
+    font-size: medium !important;
+    text-align: justify !important;
+  }
 
   p.lead.mb-5{
     font-size: medium !important;
