@@ -486,11 +486,13 @@ p.f3{
    /*left: 100px !important;*/
   }
   
-  h2.timeline_item.timeline__item--year{
-   right: -100px !important;
-  }
+ 
   .timeline__item.timeline__item--year{
     right: -100px !important;
+  }
+
+  div.subheading.mb-90{
+    font-size: 16px !important;
   }
   
 }
